@@ -1,0 +1,17 @@
+{
+  "name": "metallica-trade-service",
+  "version": "1.0.0",
+  "description": "Notification Service, Will Subscribe for events from trade service and publishes them to Client(Web) over websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "Sandeep K Pandita",
+  "license": "ISC",
+  "dependencies": {
+    "cote": "^0.18.0",
+    "socket.io": "^2.2.0"
+  }
+}

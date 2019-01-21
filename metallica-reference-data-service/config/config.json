@@ -1,0 +1,8 @@
+{
+  "test": {
+    "MONGODB_URI": "mongodb://localhost:27017/MetallicaReferenceDataTest"
+  },
+  "development": {
+    "MONGODB_URI": "mongodb://localhost:27017/MetallicaReferenceData"
+  }
+}
